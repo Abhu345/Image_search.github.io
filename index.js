@@ -45,7 +45,7 @@ form.addEventListener("submit",(event)=>{
     event.preventDefault();
     page=1;
     searchimage();
-    input.value="";
+    input.value=" ";
 });
 show.addEventListener("click",()=>{
     searchimage();
